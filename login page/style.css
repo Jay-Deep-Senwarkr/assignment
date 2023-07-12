@@ -1,0 +1,20 @@
+ol{
+    list-style: none;
+    counter-reset: num ;
+}
+
+ol li{
+    counter-increment: num;
+
+}
+ ol li::before{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background-color:#3ee2ff;
+    color:#fff;
+    font-weight: bolder;
+ }
